@@ -8,7 +8,7 @@ function Navbar() {
   const [button, setButton] = useState(true);
 
   const handleClick = () => setClick(!click);
-  const closeMobileMenu = () => setClick(false);
+  const closeMobileMenu = () => setClick(true);
 
   const showButton = () => {
     if (window.innerWidth <= 960) {
@@ -72,10 +72,10 @@ function Navbar() {
 
         </div>
       </nav>
-      <br></br> <br></br>
+ 
       <div className="row">
         
-      <div className="col-6">
+      <div className="col-6"><br></br><br></br>
           <img src="images/main.png" className="image-form"></img>
           </div>
       
